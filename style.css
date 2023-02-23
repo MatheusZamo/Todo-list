@@ -1,0 +1,55 @@
+h1{
+    font-size: 23px;
+    text-align: center;
+  }
+  #divInput{
+    display:flex;
+    justify-content:center;
+    margin-top: 25px;
+  }
+  #inputAdd{
+    border:none;
+    border-bottom: 1px solid black;
+  }
+  #adiciona{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+    cursor:pointer;
+  }
+  #adicinaTarefa{
+    margin-left:5px;
+  }
+  #tasks{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+  }
+  .task{
+    display:flex;
+    justify-content:space-around;
+  }
+  #checkbox{
+    width:30px;
+    height:20px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  #txtTask{
+    text-align:center;
+    border-bottom: 1px solid black;
+    width:200px;
+  }
+  #btnDeletar{
+    height:25px;
+    width:35px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border:none;
+    background-color:#E97777;
+    border-radius:10px;
+    color:#F8FFDB;
+  }
+ .taskName{
+  width: 250px;
+ }
