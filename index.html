@@ -12,11 +12,10 @@
 <body>
     <h1>To-do List</h1>
     <div id='divInput'>
-        <input id='inputAdd'>
+        <input id='inputAdd' autocomplete="off" autofocus>
     </div>
-    <div id='adiciona'>
-        <span>+</span>
-        <p id='addTask'>Add Task</p>
+    <div id='add'>
+        <button id="addTask" >+ AddTask</button>
     </div>
     <ul id='tasks'></ul>
     <div class="box-popup">
@@ -25,8 +24,9 @@
         <div id="popup">
           <h1>Task Editing</h1>
           <p id="question">What is the correct task ?</p>
-          <input id='new-task'type="text">
+          <input id='new-task'type="text" autocomplete="off" autofocus>
           <button class="btn-confirm">Confirm</button>
+          <span class="msgError">Enter a new task to proceed</span>
         </div>
       </div>
     </div>
