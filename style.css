@@ -22,7 +22,7 @@ html{
   #inputAdd{
     margin-top:20px;
     border:none;
-    width:300px;
+    width:200px;
     height:40px;
     border-radius:7px;
     font-size:22px;
@@ -41,7 +41,7 @@ html{
   }
   #addTask{
     cursor:pointer;
-    width:300px;
+    width:200px;
     height:40px;
     border-radius:7px;
     font-size:22px;
@@ -59,16 +59,15 @@ html{
   }
   #tasks{
     display:flex;
-    justify-content:center;
     flex-direction:column;
     align-items: center;
-    margin-top:30px;
     height: 280px;
     overflow-x: hidden;
     overflow-y: scroll;
+    margin-top:30px;
   }
   .task{
-    width:400px;
+    width:300px;
     height:40px;
     background-color: rgb(95, 95, 95);
     margin-top:15px;
