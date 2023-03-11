@@ -109,7 +109,7 @@ html{
  .taskName{
   text-align:center;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   width: 250px;
   color:#f1f1f1;
  }
@@ -149,9 +149,6 @@ html{
   margin-top:10px;
   font-size:19px;
  }
-.teste{
-  text-decoration: line-through;
-} 
 #titlePopup{
   font-size:30px;
   text-align: center;
@@ -181,6 +178,13 @@ html{
   color:#f1f1f1;
   height: 25px;
  }
+
+ .riscar{
+  text-decoration-line: line-through;
+  color:rgb(157, 150, 150);
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black
+} 
 
 
 ::-webkit-scrollbar-track {
