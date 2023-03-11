@@ -6,13 +6,14 @@ const newTask = document.querySelector('#new-task');
 const taskName = document.querySelector('.taskName');
 const msgError = document.querySelector('.msgError');
 const btnConfirm = document.querySelector('.btn-confirm');
-const checkbox = document.querySelector('.checkbox');
+
 
 // CREATE
 //Criando um localStorage
 const storage = JSON.parse(localStorage.getItem('tasks'));
 //Definindo um ternario para o localStorage
 let tasks = localStorage.getItem('tasks') !== null ? storage : [];
+
 function addTaskHTML(task){
   //Cria o conteudo que será adicionado no DOM
   const createLi = document.createElement('li');
@@ -55,12 +56,26 @@ function init(){
 }
 init();
 //UPDATE 
+ //Função que risca a task marcada
+const li = ulTasks.children
+  for(let i = 0;i<li.length;i++){
+   const input = li[i].querySelector('input') 
+   input.addEventListener('click',(() => {
+    if(input.checked == true){
+      const span = li[i].querySelector('span')
+      span.classList.add('riscar')
+    }else{
+      const span = li[i].querySelector('span')
+      span.classList.remove('riscar')
+    }
+  }))
+  }
+  //Definindo um popup de edição
 let numberID = ''
 function edition(ID){
  numberID = ID;
  boxPopup.style.display = 'block'
 }
-//Definindo um popup de edição
 boxPopup.addEventListener('click', event => {
   //pegando as class clikadas e definindo as que serão usadas para fechar o popup
   const classNameOfClicked = event.target.classList[0];
