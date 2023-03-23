@@ -1,6 +1,6 @@
 # Todo-list
 
-![My Todo list](https://user-images.githubusercontent.com/78445566/223077868-1e4dfe14-b06f-403d-8da0-c3daa510a607.png)<br><br>
+![My Todo list](https://user-images.githubusercontent.com/78445566/227165708-ec3befa4-8553-4323-902c-9ecc15288279.png)<br><br>
 <h1>Sobre o Projeto</h1>
 Lista de tarefas, de coisas que precisam ser feitas, é uma forma de organizar as atividades que não podem ser esquecidas no nosso dia .
 <h1>Tecnologias Utilizadas</h1>
