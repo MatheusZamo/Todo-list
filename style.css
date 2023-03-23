@@ -67,8 +67,8 @@ html{
     margin-top:30px;
   }
   .task{
-    width:300px;
-    height:40px;
+    width:330px;
+    height:50px;
     background-color: rgb(95, 95, 95);
     margin-top:15px;
     display:flex;
@@ -76,8 +76,9 @@ html{
     border-radius:7px;
   }
   .checkbox{
-    width:12px;
+    width:17px;
     cursor:pointer;
+    margin-left: 10px;
   }
   #txtTask{
     text-align:center;
@@ -103,13 +104,13 @@ html{
     border:none;
     background-color:rgb(95, 95, 95);
     border-radius:7px;
-    color:#343131;
+    color:#19cfc9;
     cursor:pointer;
   }
  .taskName{
   text-align:center;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 27px;
+  margin-top: 10px;
   width: 250px;
   color:#f1f1f1;
  }
@@ -137,7 +138,7 @@ html{
   position:relative;
   width: 300px;
   height: 150px;
-  margin:15% auto;
+  margin:50% auto;
   padding: 20px;
   background-color:rgb(95, 95, 95);
   border-radius: 20px;
@@ -211,9 +212,13 @@ html{
     font-size:25px;
   }
   .task{
-    width:400px;
+    width:440px;
   }
  .taskName{
-  font-size:25px;
+  font-size: 27px;
+  margin-top: 10px
+ }
+ #content-popup{
+  margin: 15% auto;
  }
 }
