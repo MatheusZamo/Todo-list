@@ -61,7 +61,6 @@ html{
     display:flex;
     flex-direction:column;
     align-items: center;
-    height: 280px;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top:30px;
